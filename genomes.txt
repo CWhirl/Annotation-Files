@@ -1,7 +1,7 @@
 genome GCA_029229535.1
 trackDb DioCari/trackDb.txt
 
-genome GCA_026250575.1
+genome GCF_026250575.1
 trackDb DioCaru/trackDb.txt
 
 genome GCA_026230145.1
