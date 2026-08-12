@@ -7,5 +7,5 @@ trackDb DioCaru/trackDb.txt
 genome GCA_026230145.1
 trackDb DioElon/trackDb.txt
 
-genome GCA_026230105.1
+genome GCF_026230105.1
 trackDb DioSubl/trackDb.txt
