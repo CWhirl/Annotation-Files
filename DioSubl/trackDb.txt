@@ -1,4 +1,4 @@
-track TiberiusGenes
+track TiberiusGenes_DioSubl
 shortLabel Tiberius Genes
 longLabel Tiberius gene predictions for Diorhabda sublineata
 type bigBed 12
