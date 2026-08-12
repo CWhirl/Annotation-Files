@@ -1,0 +1,5 @@
+hub DiorhabdaTiberius
+shortLabel Diorhabda Tiberius
+longLabel Tiberius gene predictions for Diorhabda genome assemblies
+genomesFile genomes.txt
+email cjwhirl@mavs.coloradomesa.edu
