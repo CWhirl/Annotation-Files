@@ -1,0 +1,6 @@
+track TiberiusGenes
+shortLabel Tiberius Genes
+longLabel Tiberius gene predictions for Diorhabda elongata
+type bigBed 12
+bigDataUrl ../DioElon_tiberius.bb
+visibility pack
