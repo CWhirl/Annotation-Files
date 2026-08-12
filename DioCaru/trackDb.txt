@@ -1,0 +1,6 @@
+track TiberiusGenes
+shortLabel Tiberius Genes
+longLabel Tiberius gene predictions for Diorhabda carinulata
+type bigBed 12
+bigDataUrl ../DioCaru_tiberius.bb
+visibility pack
