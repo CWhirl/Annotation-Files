@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Tiberius gene predictions for four Diorhabda genome assemblies."
+  >
+  <title>Diorhabda Tiberius Gene Annotations</title>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fa;
+      --panel: #ffffff;
+      --text: #1f2328;
+      --muted: #59636e;
+      --border: #d0d7de;
+      --accent: #0969da;
+      --accent-hover: #0550ae;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+
+    header {
+      margin-bottom: 36px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      max-width: 720px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 1.35rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      display: block;
+      padding: 20px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--panel);
+      color: inherit;
+      text-decoration: none;
+      transition:
+        border-color 120ms ease,
+        box-shadow 120ms ease,
+        transform 120ms ease;
+    }
+
+    .card:hover {
+      border-color: #8c959f;
+      box-shadow: 0 4px 12px rgba(31, 35, 40, 0.08);
+      transform: translateY(-1px);
+    }
+
+    .species {
+      margin-bottom: 4px;
+      font-size: 1.12rem;
+      font-weight: 650;
+    }
+
+    .accession {
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.92rem;
+    }
+
+    .open {
+      margin-top: 16px;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.94rem;
+    }
+
+    footer {
+      margin-top: 38px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--accent);
+    }
+
+    @media (max-width: 650px) {
+      main {
+        padding: 40px 18px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Diorhabda Tiberius Gene Annotations</h1>
+      <p class="subtitle">
+        Tiberius gene predictions for four <em>Diorhabda</em> genome assemblies.
+        Select a species below to open its annotation directly in the UCSC Genome Browser.
+        The project track hub is loaded automatically.
+      </p>
+    </header>
+
+    <section aria-labelledby="assemblies-heading">
+      <h2 id="assemblies-heading">Assemblies</h2>
+
+      <div class="grid">
+        
+      <a class="card" href="https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_029229535.1&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCWhirl%2FAnnotation-Files%2Fmain%2Fhub.txt" target="_blank" rel="noopener noreferrer">
+        <div class="species"><em>Diorhabda carinata</em></div>
+        <div class="accession">GCA_029229535.1</div>
+        <div class="open">View Tiberius annotation in UCSC →</div>
+      </a>
+    
+      <a class="card" href="https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCF_026250575.1&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCWhirl%2FAnnotation-Files%2Fmain%2Fhub.txt" target="_blank" rel="noopener noreferrer">
+        <div class="species"><em>Diorhabda carinulata</em></div>
+        <div class="accession">GCF_026250575.1</div>
+        <div class="open">View Tiberius annotation in UCSC →</div>
+      </a>
+    
+      <a class="card" href="https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_026230145.1&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCWhirl%2FAnnotation-Files%2Fmain%2Fhub.txt" target="_blank" rel="noopener noreferrer">
+        <div class="species"><em>Diorhabda elongata</em></div>
+        <div class="accession">GCA_026230145.1</div>
+        <div class="open">View Tiberius annotation in UCSC →</div>
+      </a>
+    
+      <a class="card" href="https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCF_026230105.1&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCWhirl%2FAnnotation-Files%2Fmain%2Fhub.txt" target="_blank" rel="noopener noreferrer">
+        <div class="species"><em>Diorhabda sublineata</em></div>
+        <div class="accession">GCF_026230105.1</div>
+        <div class="open">View Tiberius annotation in UCSC →</div>
+      </a>
+    
+      </div>
+    </section>
+
+    <footer>
+      Project repository:
+      <a href="https://github.com/CWhirl/Annotation-Files" target="_blank" rel="noopener noreferrer">
+        CWhirl/Annotation-Files
+      </a>
+      · Track hub:
+      <a href="https://raw.githubusercontent.com/CWhirl/Annotation-Files/main/hub.txt" target="_blank" rel="noopener noreferrer">hub.txt</a>
+    </footer>
+  </main>
+</body>
+</html>
